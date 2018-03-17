@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Fira+Sans:300');
+/*************** 
+**** Header *****
+****************/
+
+.title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #2d3c49;
+	padding: 0 20px 0 0px;
+}
+
+.content {
+	font-family: 'Fira Sans', sans-serif;
+	clear: both;
+}
+
+#occupation {
+	text-align: right;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+#name {
+	font-size: 2.5rem;
+	font-family: 'Oswald', sans-serif;
+}
+
+hr {
+	clear: both;
+	background-color: #7d97ad;
+	height: 2px;
+	border: 0;
+}
+
+.udacity-logo {
+	width: 128px;
+	height: auto;
+}
+
+/*************** 
+**** Header *****
+****************/
+
+/*************** 
+**** Main *****
+****************/
+
+section {
+	margin-bottom: 30px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.html-image img {
+	max-height: 600px;
+}
+
+.featured {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.featured h1 {
+	color: #7d97ad;
+}
+
+.featured-subtitle {
+	font-size: 0.8em;
+}
+
+@media (max-width: 767px) {
+	.col-md-4 {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+	#name {
+		font-size: 1.5rem;
+		font-family: 'Oswald', sans-serif;
+	}
+}
+
+/*************** 
+**** Main *****
+****************/
